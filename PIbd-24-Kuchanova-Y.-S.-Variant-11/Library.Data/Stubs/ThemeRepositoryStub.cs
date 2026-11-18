@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class ThemeRepositoryStub : IThemeRepository
+    public class ThemeRepositoryStub : IThemeRepository
     {
         public void Add(Theme theme)
         {

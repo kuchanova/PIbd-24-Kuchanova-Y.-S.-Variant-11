@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class LibrarianThemeRepositoryStub : ILibrarianThemeRepository
+    public class LibrarianThemeRepositoryStub : ILibrarianThemeRepository
     {
         public void Add(LibrarianTheme librarianTheme) { }
         public IEnumerable<LibrarianTheme> GetAll() => [];

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class LoanRepositoryStub : ILoanRepository
+    public class LoanRepositoryStub : ILoanRepository
     {
         public void Add(Loan loan) { }
         public IEnumerable<Loan> GetAll() => [];

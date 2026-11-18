@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class ReaderRepositoryStub : IReaderRepository
+    public class ReaderRepositoryStub : IReaderRepository
     {
         public void Add(Reader reader) { }
         public void Delete(int id) { }

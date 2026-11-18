@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class PublicationRepositoryStub : IPublicationRepository
+    public class PublicationRepositoryStub : IPublicationRepository
     {
         public void Add(Publication publication) { }
         public void Delete(int id) { }

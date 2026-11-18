@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library.Data.Stubs
 {
-    internal class LibraryCardRepositoryStub : ILibraryCardRepository
+    public class LibraryCardRepositoryStub : ILibraryCardRepository
     {
         public void Add(LibraryCard card) { }
         public void Delete(int id) { }
